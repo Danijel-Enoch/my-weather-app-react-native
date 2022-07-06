@@ -1,0 +1,49 @@
+Arguments: 
+  /home/enoch/.nvm/versions/node/v16.13.1/bin/node /home/enoch/.nvm/versions/node/v16.13.1/bin/yarn
+
+PATH: 
+  /home/enoch/.nvm/versions/node/v16.13.1/bin:/home/enoch/.local/share/solana/install/active_release/bin:/home/enoch/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: ENOSPC: no space left on device, copyfile '/home/enoch/.cache/yarn/v6/npm-@urql-core-2.5.0-6b7e736dc9d3e9e9d7ea3e711ae8dc52be443b1b-integrity/node_modules/@urql/core/dist/urql-core.min.js.map' -> '/home/enoch/mobile-app/my-weather-app/node_modules/@urql/exchange-retry/node_modules/@urql/core/dist/urql-core.min.js.map'
+
+npm manifest: 
+  {
+    "name": "my-weather-app",
+    "version": "1.0.0",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "~45.0.0",
+      "expo-status-bar": "~1.3.0",
+      "react": "17.0.2",
+      "react-dom": "17.0.2",
+      "react-native": "0.68.2",
+      "react-native-web": "0.17.7"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.12.9"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
